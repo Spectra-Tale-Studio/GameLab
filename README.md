@@ -26,36 +26,43 @@ To copy from GitHub and build a Unity project without installing additional file
 
 ### Clone the Repository:
 
-Open the GitHub repository page containing the Unity project.
+Open the GitHub repository page containing the Unreal project.
 Click on the green "Code" button and select "Download ZIP" if you don't have Git installed, or use Git to clone the repository if you have it installed.
 If you downloaded the ZIP file, extract its contents to a dedicated folder on your computer.
-### Open Unity Hub:
 
-Ensure you have Unity Hub installed on your machine. Unity Hub is a management tool for Unity projects.
-Open Unity Hub and click on the "Add" button to add a new project.
+### Open Unreal Engine:
+
+Ensure you have Unreal Engine (Epic Games Launcher) installed on your machine.
+Open the Epic Games Launcher and go to the Library section.
+
 ### Select the Project:
 
-Navigate to the folder where you extracted or cloned the Unity project.
-Select the project folder and click "Open" or "Select Folder."
-Install Unity Version (if needed):
+Navigate to the folder where you extracted or cloned the Unreal project.
+Locate the .uproject file and double-click it, oppure usa “Browse” dal launcher per aprirlo.
 
-If the Unity project requires a specific Unity version that you don't have installed, Unity Hub will prompt you to download and install the required version. Follow the prompts to install it.
+### Install Unreal Version (if needed):
+
+If the project requires a specific Unreal Engine version that you don't have installed, Unreal will prompt you to install it via the Epic Games Launcher. Follow the prompts to install the correct version.
+
 ### Open the Project:
 
-Once the Unity version is installed, click on the project thumbnail in Unity Hub to open the project.
-Resolve Dependencies (if needed):
+Once the correct Unreal version is installed, open the project via the .uproject file or from the launcher.
 
-Unity projects may have dependencies or plugins. Check the project documentation or readme for any specific instructions on resolving dependencies. You might need to import certain assets or packages from the Unity Asset Store.
+### Resolve Dependencies (if needed):
+
+Unreal projects may require plugins.
+If prompted, enable or install missing plugins.
+Check the project documentation or readme for any additional setup steps.
+
 ### Build the Project:
 
-Once the project is open, go to "File" -> "Build Settings."
-Choose the target platform for your build (e.g., PC, Mac, Android, iOS).
-Click on "Switch Platform" if necessary.
-Click on "Build" to generate the executable or project files.
+If the project includes C++ code, Unreal will ask you to build/compile it (Visual Studio or Rider required).
+Alternatively, you can build manually via the IDE or using the Compile button inside Unreal Editor.
+
 ### Run the Project:
 
-After building, you can run the project by executing the generated executable or running it directly from the Unity Editor.
-These steps should allow you to copy a Unity project from GitHub, set it up in Unity Hub, and build it without needing to install additional files beyond Unity Hub and the required Unity version. Note that specific projects may have unique requirements, so always check the project documentation for any additional instructions.
+Click the Play button inside the Unreal Editor to run the project.
+For a packaged build, go to Platforms → Package Project, choose your target platform, and generate the executable.
 
 ## Or take the last Build
 
@@ -71,5 +78,7 @@ These steps should allow you to copy a Unity project from GitHub, set it up in U
 
 ## License
 
-This project is intended for educational and portfolio purposes only.
+This project is licensed under the terms described in the [LICENSE](LICENSE) file.
+
+This project is intended for educational and portfolio purposes only.  
 © 2025 Spectra Tale Studio. All rights reserved.
