@@ -68,7 +68,7 @@ For a packaged build, go to Platforms → Package Project, choose your target pl
 
 ### Release
 
-[Download](coming soon)
+[Download](https://github.com/Spectra-Tale-Studio/GameLab/releases/tag/BetaVersion_0.0.2b)
 
 ---
 
